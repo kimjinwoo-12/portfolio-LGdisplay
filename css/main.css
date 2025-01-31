@@ -62,8 +62,8 @@ body{font-family: "Pretendard", sans-serif; font-size: 1.6rem; line-height: 1.5;
 .visual_txt p{font-size: 3rem; padding: 0 0 40px;}
 
 @media(max-width:768px){
-  .visual_txt h2{font-size: 3.5rem;}
-  .visual_txt p{font-size: 2rem;}
+  .visual_txt h2{font-size: 3rem;}
+  .visual_txt p{font-size: 1.6rem;}
 }
 
 /* prd */
@@ -95,7 +95,7 @@ body{font-family: "Pretendard", sans-serif; font-size: 1.6rem; line-height: 1.5;
 }
 @media(max-width:1024px){
   .prd ul{flex-direction: column; flex-wrap: nowrap;}
-  .prd ul li{width: 100% !important; border: #000 1px solid;}
+  .prd ul li{width: 100% !important; height: 25%; border: #000 1px solid;}
   .prd ul li a p{display: block;}
   .prd ul li:nth-child(1) a{background: url("../images/prd1.jpg") center center/cover;}
   .prd ul li:nth-child(2) a{background: url("../images/prd2.jpg") center center/cover;}

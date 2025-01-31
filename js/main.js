@@ -70,7 +70,7 @@ const esg_list = new Swiper(".esg_list", {
     },
     768: {
       // 가로해상도가 640px 이상
-      slidesPerView: 2.5,
+      slidesPerView: 2,
       spaceBetween: 20,
     },
     1024: {
